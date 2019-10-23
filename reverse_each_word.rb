@@ -3,8 +3,8 @@ def reverse_each_word(sentence1)
   sentence1_array = sentence1.split(' ')
 
   sentence1_array.each{|word| new_array << word.reverse}
-  return new_array.collect 
-  # return new_array.join(" ")
+
+  return new_array.join(" ")
 
 end
 # def reverse_each_word_collect(sentence1)
