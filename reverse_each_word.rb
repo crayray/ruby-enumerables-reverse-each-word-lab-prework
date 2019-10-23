@@ -2,7 +2,7 @@ def reverse_each_word(sentence1)
   new_array = []
   sentence1 = sentence1.split(' ')
 
-  sentence1.each{|word| ${sentence one}}
+  sentence1.each{|word| ${sentence1}}
   # sentence1.each{|word| word.to_s.reverse << new_array}
   # new_array.join(' ')
   # return new_array
